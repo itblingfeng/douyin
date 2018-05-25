@@ -13,9 +13,9 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-@RestController
+@RestController("parser")
 public class DouyinController {
-    @PostMapping("/parser")
+    @PostMapping()
     public DouyinResult parserUrl(String url) {
         BufferedReader in = null;
         String playUrl = null;
@@ -41,7 +41,7 @@ public class DouyinController {
             brgUrl = StringUtil.getBackground(sb.toString());
             result = new HashMap<String, String>();
             result.put("playUrl", playUrl);
-            result.put("brg_url", brgUrl);
+            result.put("brgUrl", brgUrl);
         } catch (Exception e) {
             return DouyinResult.fail(e.getMessage(), 500);
         } finally {
