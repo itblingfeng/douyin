@@ -19,3 +19,5 @@ param: url: http://v3-dy.ixigua.com/4ed18c7ba2fd917baaf3669e7fa9faa8/5b077d6c/vi
 ```json
 result: {"msg":"success","data":{"brgUrl":"https://p9.pstatp.com/large/85020005f5a6746af4a7.jpg","playUrl":"https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200ff50000bbvv77uue3mhdhd0tj1g&line=0"},"code":200}
 ```
+
+已经搭建好的网站 <a href="https://douyin.blingfeng.cn"> https://douyin.blingfeng.cn</a>
