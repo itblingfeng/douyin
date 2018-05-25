@@ -13,7 +13,7 @@ java -jar douyin-0.0.1-SNAPSHOT.jar &
 
 example: 
 ```
-POST localhost:9600/parser
+POST localhost:9600/douyin/parser
 param: url: http://v3-dy.ixigua.com/4ed18c7ba2fd917baaf3669e7fa9faa8/5b077d6c/video/m/220ee41c4c92516499889486e160918a09a11571c5f00006be6e7716028/
 ```
 ```json
