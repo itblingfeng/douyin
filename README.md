@@ -14,7 +14,7 @@ java -jar douyin-0.0.1-SNAPSHOT.jar &
 example: 
 ```
 POST localhost:9600/douyin/parser
-param: url: http://v3-dy.ixigua.com/4ed18c7ba2fd917baaf3669e7fa9faa8/5b077d6c/video/m/220ee41c4c92516499889486e160918a09a11571c5f00006be6e7716028/
+param: url: https://www.iesdouyin.com/share/video/6557227448084204804/?region=CN&mid=6557227625809611523&titleType=title&utm_source=copy_link&utm_campaign=client_share&utm_medium=android&app=aweme&iid=33404473122&timestamp=1527213871
 ```
 ```json
 result: {"msg":"success","data":{"brgUrl":"https://p9.pstatp.com/large/85020005f5a6746af4a7.jpg","playUrl":"https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200ff50000bbvv77uue3mhdhd0tj1g&line=0"},"code":200}
